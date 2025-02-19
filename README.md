@@ -46,7 +46,7 @@ Para ejecutar correctamente el proyecto, asegúrate de contar con:
 7. Acceder a la aplicación en `http://127.0.0.1:8000`.
 
 ## 📝 Licencia
-Este proyecto ha sido desarrollado con fines educativos y no cuenta con una licencia específica.
+Este proyecto ha sido desarrollado con fines educativos y no cuenta con una licencia específica. Puede usarlo quien quiera sin mencionar el autor
 
 ---
 💪 **¡Listo! Ahora puedes usar y modificar el proyecto según tus necesidades.**
