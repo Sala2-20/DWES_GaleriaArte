@@ -46,7 +46,8 @@ Para ejecutar correctamente el proyecto, asegúrate de contar con:
 7. Acceder a la aplicación en `http://127.0.0.1:8000`.
 
 ## 📝 Licencia
-Este proyecto ha sido desarrollado con fines educativos y no cuenta con una licencia específica. Puede usarlo quien quiera sin mencionar el autor
+Este proyecto ha sido desarrollado con fines educativos y no cuenta con una licencia específica. Puede usarlo quien quiera sin mencionar el autor.
+Galeria de arte by **Jorge Atienza**, **Mario Alcaide**, **Sergio Cerrada**,**Hernán Uña** is marked with CC0 1.0 
 
 ---
 💪 **¡Listo! Ahora puedes usar y modificar el proyecto según tus necesidades.**
