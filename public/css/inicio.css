@@ -1,0 +1,8 @@
+body{
+    background-image: "/images/imagenFondo.jpg" ;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}

@@ -1,0 +1,111 @@
+
+body{
+    background-color: rgb(202, 202, 202);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    animation: agitar 1s 1;
+    border: 1px solid black;
+    border-radius: 10   px;
+    width: 30%;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-duration: 2s;
+}
+.contenedor:hover{
+    transform: scale(1.1);
+}
+@keyframes agitar{
+    0% {transform: rotate(5deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+#cabecera{
+    background-color: rgb(135, 135, 135);
+    color: black;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+#piePagina{
+    background-color: rgb(172, 172, 172);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.fotImg{
+    height: 30px;
+    width: 30px;
+}
+
+#inicioSesion{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin-right: 50px;
+    background-image: url(/images/abstracto.png);
+}
+#registrarse{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background-image: url(/images/bb.jpg);
+}
+input[type="submit"]{
+    border: 0cap;
+    background: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    text-decoration: underline;
+}
+
+
+.boton{
+    border: 0cap;
+    background: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.boton:hover{
+    text-decoration: underline;
+}
